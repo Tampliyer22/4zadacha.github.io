@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Горы</title>
+
+  <style>
+    header {
+      display: flex;
+      justify-content: flex-end;
+      border-bottom: 2px dashed blueviolet;
+    }
+
+    nav {
+      margin: 20;
+      padding: 10;
+      height: 30px;
+      display: flex;
+    }
+
+    nav a {
+      color: lightskyblue;
+      padding: 0px 20px 0px 20px;
+    }
+
+    .container {
+      width: 1000px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .image-container {
+      width: 500px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .image-container img {
+      opacity: 0.5; 
+      
+    }
+
+    .image-container img:hover {
+      opacity: 1; 
+      padding: 20px;
+      border: 3px solid navy;
+    }
+
+    .text-left {
+      color: lightskyblue;
+      font-size: 35px;
+      text-align: left;
+    }
+
+    .text-left:hover{
+      font-size: 45px;
+      color: navy;
+    }
+
+    .text-rigth {
+      color: lightskyblue;
+      font-size: 35px;
+      text-align: right;
+      padding: 0px 0px 0px 110px;
+    }
+
+    .text-rigth:hover{
+      color: darkorange;
+    }
+
+    .container-left {
+      float: right;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <nav>
+        <a href="">Сезонные акции</a>
+        <a href="">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1 style="text-align: center;">Горные экскурсии</h1>
+    <div class="container">
+      <div class="image-container">
+        <img src="https://avatars.mds.yandex.net/i?id=f885f6c27fd5f012e028c503cb3b29a16f211e8e-11271031-images-thumbs&n=13" height="200" width="150"/>
+        <img src="https://avatars.mds.yandex.net/i?id=684d6787b7bffc59afb9b8c259c538c81ec9fa6e-5222233-images-thumbs&n=13" height="200" width="150"/>
+        <img src="https://avatars.mds.yandex.net/i?id=6e6c970fa08264beb2597ef4d49e66044b42fcde-6951086-images-thumbs&n=13" height="200" width="150"/>
+        <img src="https://avatars.mds.yandex.net/i?id=496880dff4ad09a36ae7e4a434dcff8841488b3b-3727959-images-thumbs&n=13" height="200" width="150"/>
+        <img src="https://avatars.mds.yandex.net/i?id=1767312e24afdf0d48a66f104ce98a2c5f489f3e-4466230-images-thumbs&n=13" height="200" width="150"/>
+        <img src="https://avatars.mds.yandex.net/i?id=47862c9decf8db5c72240f487c96be23afdbc71e-12495681-images-thumbs&n=13" height="200" width="150"/>
+      </div>
+
+      <section>
+        <div class="con-left">
+          <p class="text-left">Только</p>
+        </div>
+
+        <div class="con-left">
+          <p class="text-rigth"><em>горы!</em></p>
+        </div>
+
+        <div class="con-left">
+          <p class="text-left">Только</p>
+        </div>
+
+        <div class="con-left">
+          <p class="text-rigth"><em>вперед!</em></p>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
+
+
+

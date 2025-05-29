@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>магазин</title>
+  <style>
+    .catalog{
+      display: flex;
+    }
+
+    .feed{
+      width: 150px;
+      text-align: center;
+      padding: 10px;
+      border: 5px double orange;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      background-color: bisque;
+      display: block;   
+      
+    }
+
+    .houses{
+      width: 150px;
+      text-align: center;
+      padding: 10px;
+      border: 5px double orange;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      background-color: bisque;
+      display: block;   
+
+    }
+
+    .toys{
+      width: 150px;
+      text-align: center;
+      padding: 10px;
+      border: 5px double orange;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      background-color: bisque;
+      display: block;   
+      
+    }
+
+    header{
+      background: lightblue;
+    }
+
+    header h1{
+      background-color: white;
+    }
+
+    footer{
+      border-top: 4px solid navy;
+      border-bottom: 4px solid navy;
+      margin: 20;
+      padding: 10;
+
+    }
+
+    .posts {
+      width: 1000px;
+      height: 300px;
+      display: flex;
+      gap: 0;
+    }
+
+    
+    .posts div {
+      width: 250px;
+      float: left; 
+      box-sizing: border-box;
+      padding: 10px;
+      height: 430px; 
+      overflow-y: auto;
+      margin-right: 20px;
+    }
+
+    
+  </style>
+
+</head>
+<body>
+
+    <header>
+      <h1>Товары для питомцев</h1>
+      <section class="catalog">
+        <article  class="feed">
+          <img src="https://avatars.mds.yandex.net/i?id=930f498b7c5850167b805587b7d4cb8b35b3d9b5-4016775-images-thumbs&n=13" height="100px"/>
+          <a href="#corm">Корма</a>
+        </article>
+  
+        <article  class="toys">
+          <img src="https://avatars.mds.yandex.net/i?id=f7ed48f1f65b50fd6f62272d2500921b1ea14745-8498042-images-thumbs&n=13" height="100px"/>
+          <a href="#play">Игрушки</a>
+        </article>
+  
+        <article  class="houses">
+          <img src="https://avatars.mds.yandex.net/i?id=c6a2ff56c85e1e0e7856e0034bf22cf9a76d349f-5339293-images-thumbs&n=13" height="100px"/>
+          <a href="#house">Домик</a>
+        </article>
+        
+
+      </section>
+    </header>
+    
+    <footer>
+      <div class="posts">
+        <div>
+          <img src="https://avatars.mds.yandex.net/i?id=e460db273ab8461c338c1b45aef205d18079a99e-9701815-images-thumbs&n=13" height="100"/>
+          <p>Товары проходя ветэкспертизу</p>
+        </div>
+
+        <div>
+          <img src="https://avatars.mds.yandex.net/i?id=07e50770687da2503409953abd85f6064c235437-10767497-images-thumbs&n=13" height="100"/>
+          <p>Доставка в любый точки города</p>
+        </div>
+
+        <div>
+          <img src="https://avatars.mds.yandex.net/i?id=548def51ab5aed3205c9dd6f734eb0b6bbfb7d81-10022509-images-thumbs&n=13" height="100"/>
+          <p>Бесплатная консультация</p>
+        </div>
+
+      </div>
+    </footer>
+
+</body>
+</html>

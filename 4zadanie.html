@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>зоопарк</title>
+  <style>
+    header h1{
+      color: blueviolet;
+    }
+
+    .container {
+        display: flex;
+        max-width: 1200px;
+        margin: 50px auto;
+        gap: 30px;
+        padding: 0 20px;
+      }
+    
+    .outer-container {
+        width: 870px; 
+        
+    }
+
+    .glav-block {
+        float: left; 
+        width: 400px; 
+        
+    }
+
+  
+    .reclama {
+        float: right; 
+        width: 350px; 
+        top: 90px; 
+        padding: 30px; 
+        border: 2px dotted navy; 
+        
+    }
+
+    .reviews {
+        width: 870px; 
+        position: relative; 
+        margin-left: 30px; 
+    }
+
+    .review {
+       
+        width: 350px; 
+        padding-left: 10px; 
+        margin-bottom: 20px; 
+
+      }
+
+    
+    .reviewer-name {
+        text-decoration-line: underline;
+        text-decoration-style: dotted;
+        text-decoration-color: firebrick;
+    }
+
+    
+  </style>
+
+</head>
+<body>
+
+    <header>
+      <h1>Зоопарк редких животных</h1>
+      
+    </header>
+    
+    
+    <main>
+      <div class="outer-container">
+        <section class="glav-block">
+          <h2 style="color: navy;">Более 150 видов</h2>
+          <p>Вы увидите крупных диких
+            представителей живой природы, а также
+            редких птиц, змей и многое другое!</p>
+  
+          <img src="https://avatars.mds.yandex.net/i?id=f129d0ebfde12d4fffbb0e03da1f0f064a0cb065-9029853-images-thumbs&n=13" width="400"/>
+  
+        </section>
+  
+        <aside class="reclama">
+          <h2 style="color: navy;">Внимание! Спецальное предложение от партне-ра!</h2>
+          <p> <a href="">Щенки хаски</a> от заводчика со всеми документами</p>
+          <img src="https://avatars.mds.yandex.net/i?id=6dbb64ea7294dcc3744729606e8f6940bd230879-12802892-images-thumbs&n=13" width="125">
+          <img src="https://avatars.mds.yandex.net/i?id=1709c09b1feaf56fd8233576c739d91021dc11d3-4012375-images-thumbs&n=13" width="125">
+        </aside>
+        
+      </div>
+
+      <div class="reviews">
+        <div class="review">
+          <p class="reviewer-name">Олег</p>
+          <p>Были серпентарии. Ребенок в восторге!</p>
+        </div>
+
+        <div class="review">
+          <p class="reviewer-name">Наталья</p>
+          <p>Спасибо за экскурсию! Очень интересно!</p>               
+        </div>
+
+        <div class="review">
+          <p class="reviewer-name">Анна</p>
+          <p>Так и не попали к птицам. жаль...
+            Однако, остальное очень здорово!</p>         
+        </div>
+
+      </div>
+      
+    </main>
+
+</body>
+</html>

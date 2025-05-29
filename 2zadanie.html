@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Новости</title>
+  <style>
+    footer {
+        background-color: #8fddf2;
+        padding: 10px;
+    }
+
+    footer p{
+        background-color: white;
+        padding: 10px;
+    }
+
+    
+    h1{
+        text-align: center;
+        font-size: 35px;
+    }
+    nav {
+      margin: 20;
+      padding: 10;
+      height: 30px;
+      border-top: 2px solid blueviolet;
+      border-bottom: 2px solid blueviolet;
+    }
+
+    nav a{
+        margin: 60px;
+        font-size: 20px;
+        text-decoration: none;
+        color: purple;
+    }
+
+    
+    .posts {
+      width: 1000px;
+      height: 450px;
+      display: flex;
+      gap: 0;
+    }
+
+    
+    .posts div {
+      width: 250px;
+      float: left; 
+      box-sizing: border-box;
+      padding: 10px;
+      height: 430px; 
+      overflow-y: auto;
+      margin-right: 20px;
+    }
+    
+
+  </style>
+</head>
+<body>
+    <header>
+        <img src="https://i.yapx.ru/ZGk5M.png" width="100"/>
+        <nav>
+            <a href="#news">Новости</a>
+            <a href="#concurs">Конкурс</a>
+            <a href="#plan">Планы развития</a>
+          </nav>
+    </header>
+
+    <main>
+        <h1>Pixel Design</h1>
+
+        <div class="posts">
+            <div id="news">
+              <h2 style="text-align: center; background-color: aqua; color: pur-ple;">Наши последние новости</h2>
+              <p>В нашей студии новый дизайнер: пиксель Cube. Именно он будет ис-польнять ваши заказы по трехмерной графике. Увлекается
+                я ландшафтным и интерьерным дизайном. Недавно он давал интерьвью газете
+                <em>Progress news</em></p>
+            </div>
+
+            <div id="concurs">
+              <h2 style="text-align: center; background-color: aqua; color: pur-ple;">Готовимся к конкурсу</h2>
+              <p>Весной следущего года мы участвуем в конкурсе дизайна. Наши работы будут
+                представлены в направлениях: <em>веб-дизайн, 
+                полиграфический дизайн, дизайн интерьеров.</em>По каждому направле-нию мы собираемся представить несколько работ, которые пройдут предвадительный от-бор в
+                нашей студии.
+                </p>
+            </div>
+            
+            <div id="plan">
+              <h2 style="text-align: center; background-color: aqua; color: pur-ple;">Планы развития</h2>
+              <p>В этом месяце мы готовим годовое планирование
+                нашей работы. Кроме того, что мы принимаем и выполняем клиентские заказы по дизайну, мы участвуем в конкурсах, учимся на онлайн курсах, повышаем наше мастерство,просматриваем сборники лучших работ, которые можно найти в интерне-те.</p>
+            </div>
+          </div>
+    </main>
+
+    <footer>
+        <p>Контакты</p>
+        <p>Адрес: г.Техноград, ул,Дисплейная, 15</p>
+        <p>Тел.: 8895-6341</p>
+    </footer>
+</body>
+</html>
